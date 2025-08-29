@@ -59,7 +59,11 @@ Projekt Folder Track repository
 
 
 git --version
-U - Untrasked file
+U - Untracked file
 git add file.txt 
 A - Changes to be commited
 git commit -m "skriv hva som helst"
+git log
+
+HAED master
+git rm --rached .\Note.txt  /untratracked file
