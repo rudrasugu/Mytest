@@ -36,7 +36,7 @@ Start Visual Studio Code
 
 Åpne terminal i VS Code
 
-Klon GitHub mappen Mytest til Viual Studio
+Klon GitHub mappen Mytest til Viual Studiogitt
 
 git clone https://github.com/rudrasugu/Mytest.git
 
@@ -46,3 +46,20 @@ Dette synkroniserer repoet Mytest inn i C:\My_GIT.
 Gå inn i til PS C:\My_GIT\ cd Mytest   enter
 
 cd Mytest
+---
+
+Creating Git Repository
+git init  /creating repository folder .Git
+git status
+git commit -m "message"
+git log
+
+
+Projekt Folder Track repository
+
+
+git --version
+U - Untrasked file
+git add file.txt 
+A - Changes to be commited
+git commit -m "skriv hva som helst"
