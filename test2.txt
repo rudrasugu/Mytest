@@ -1,0 +1,30 @@
+Inser -> Add -> Commit -> Push
+
+Task:-
+Crste test3.txt file push it in the remote repo
+
+
+
+PS C:\My_GIT\Mytest> git add Note.txt
+PS C:\My_GIT\Mytest> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Note.txt
+
+PS C:\My_GIT\Mytest> git commit -m "sende filen til Github"
+[main c13c3ee] sende filen til Github
+ 1 file changed, 48 insertions(+)
+ create mode 100644 Note.txt
+
+PS C:\My_GIT\Mytest> git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 757 bytes | 757.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/rudrasugu/Mytest.git
+   02a8c1a..c13c3ee  main -> main
