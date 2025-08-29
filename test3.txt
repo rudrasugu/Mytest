@@ -1,0 +1,9 @@
+/skriver koden i VS studio og pusher videre til Github
+Git add test3.txt
+git commit-m "skriv hva som helst"
+git push origin main
+/etter at sletet filen.
+git status
+git add test3.txt
+git commit -m "deleted test3.text file"
+gir push orign main
