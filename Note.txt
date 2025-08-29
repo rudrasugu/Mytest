@@ -1,0 +1,48 @@
+Installere og sette opp Git
+
+Installer Git
+
+Last ned fra git-scm.com
+.
+
+Installer med standardinnstillinger.
+
+Test installasjonen
+
+Åpne Command Prompt.
+
+Skriv:git
+Trykk Enter.
+
+Dersom du ser en liste med kommandoer, er Git installert riktig.
+
+Konfigurer Git med navn og e-post
+
+git config --global user.name "rudrasugu"
+git config --global user.email "rudra.nadarajah@outlook.com"
+
+Opprette og klargjøre prosjektmappe
+
+Lag en mappe på PC-en
+
+Opprett:
+
+C:\My_GIT
+
+
+Start Visual Studio Code
+
+Åpne mappen My_GIT.
+
+Åpne terminal i VS Code
+
+Klon GitHub mappen Mytest til Viual Studio
+
+git clone https://github.com/rudrasugu/Mytest.git
+
+
+Dette synkroniserer repoet Mytest inn i C:\My_GIT.
+
+Gå inn i til PS C:\My_GIT\ cd Mytest   enter
+
+cd Mytest
